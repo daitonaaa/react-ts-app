@@ -1,0 +1,67 @@
+{
+	"compilerOptions": {
+		"baseUrl": "src",
+		"target": "es5",
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"esnext"
+		],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strictNullChecks": true,
+		"esModuleInterop": true,
+		"noImplicitAny": false,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "preserve"
+	},
+	"paths": {
+		"api": [
+			"src/api"
+		],
+		"types/*": [
+			"src/types/**"
+		],
+		"actions/*": [
+			"src/actions/**"
+		],
+		"routes/*": [
+			"src/routes/**"
+		],
+		"helpers/*": [
+			"src/helpers/**"
+		],
+		"reducers/*": [
+			"src/reducers/**"
+		],
+		"components/*": [
+			"src/components/**"
+		],
+		"converters/*": [
+			"src/converters/**"
+		],
+		"models/*": [
+			"src/models/**"
+		],
+		"builders/*": [
+			"src/builders/**"
+		],
+		"styles/*": [
+			"src/styles/**"
+		]
+	},
+	"include": [
+		"src",
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
